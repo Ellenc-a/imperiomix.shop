@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
       :root {
-        --primary: #1a5f07;
-        --primary-dark: #0d3004;
+        --primary: #316407;
+        --primary-dark: #1a3404;
         --secondary: #ffcc00;
         --secondary-dark: #e6b800;
         --accent: #25d366;
@@ -462,7 +462,7 @@
       </div>
       
       <section class="cod-hero">
-        <h1 class="cod-hero-title capitalize">AMOLADOR DE FACAS</h1>
+        <h1 class="cod-hero-title capitalize">Seu aliado diário para manter facas, tesouras e ferramentas sempre afiadas.</h1>
         <p class="cod-hero-subtitle">Garanta já o seu e pague apenas quando receber, direto ao entregador. Ou seja: risco zero para você!</p>
         <img class="cod-hero-image" id="image" src="null" style="display: none;">
         <video class="cod-hero-image" id="video" controls  style="display: none;">
@@ -500,8 +500,8 @@
       </div>
       
       <section class="cod-offers">
-        <h2 class="cod-section-title">Oferta Especial</h2>
-        <p class="cod-hero-subtitle">Oferta Especial Válida Apenas Hoje</p>
+        <h2 class="cod-section-title">Ofertas Especiais</h2>
+        <p class="cod-hero-subtitle">Escolha a Melhor Oferta para você</p>
         
         <div class="cod-offers-content" id="cod-offers-content">
         </div>
@@ -538,7 +538,7 @@
 
     <script>
       init = function(){
-        const offers = [{"name":"","price_high":"139.90","price_low":"119.90","link":"https://entrega.logzz.com.br/pay/memo3x2q3/1-unidade-amolador-oferta","saving":"20.00"}];
+        const offers = [{"name":"1 AMOLADOR ELETRICO","price_high":"139.90","price_low":"119.90","link":"https://entrega.logzz.com.br/pay/memo3x2q3/1-unidade-amolador-oferta","saving":"20.00"},{"name":"2 AMOLADORES","price_high":"219.90","price_low":"289.90","link":"https://entrega.logzz.com.br/pay/memo3x2q3/2-unidade-amolador-super-desconto","saving":0}];
         const offersContent = document.getElementById('cod-offers-content');
         offersContent.innerHTML = offers.map((offer) => {
           return `
